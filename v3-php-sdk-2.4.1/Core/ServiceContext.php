@@ -115,6 +115,7 @@ class ServiceContext
 		$this->IppConfiguration = LocalConfigReader::ReadConfiguration();
 
 	    // Validate Parameters
+		 //Modificao Teste ...
 	    if (empty($realmId))
 	    {
 			throw new Exception('Invalid Realm.');
